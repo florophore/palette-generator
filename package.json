@@ -1,6 +1,6 @@
 {
   "name": "@floro/palette-generator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "./dist/cjs/src/index.js",
   "module": "./src/esm/src/index.js",
   "types": "./dist/types/src/index.d.ts",
@@ -17,15 +17,14 @@
     "compile": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json",
     "build:clean": "rm -rf ./dist",
     "build": "yarn build:clean && yarn compile && ./fixup.sh",
-    "postinstall": "yarn build",
     "test": "jest"
   },
   "author": "Cheqout Payments Inc",
   "license": "MIT",
   "devDependencies": {
     "@jest/types": "^29.1.2",
-    "@types/jest": "^29.5.11",
-    "@types/node": "^20.10.6",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^18.11.17",
     "jest": "^29.1.2",
     "ts-jest": "^29.1.1",
     "tslib": "^2.6.2",
