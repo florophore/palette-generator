@@ -1,6 +1,6 @@
 {
   "name": "@floro/palette-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/cjs/src/index.js",
   "module": "./src/esm/src/index.js",
   "types": "./dist/types/src/index.d.ts",
